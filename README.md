@@ -9,13 +9,14 @@
 - Вебинар Как пользоваться дебаггером в IntelliJ IDEA https://youtu.be/aZdC_cPTk1o
 - Лицензия для идеи: 
   https://gist.github.com/zcroll/f7b9fa6d50e290d81aa148b9c1c9898f?permalink_comment_id=5571251#gistcomment-5571251
+
 # Java Virtual Machine
 
 ## **Java Memory Model:**
-- [Простая статья с красивыми картинками](https://struchkov.dev/blog/ru/memory-in-java/)
-- [Типы ссылок и GC](https://habr.com/ru/articles/549176/)
-- [Про утечку памяти](https://proglib.io/p/razbiraemsya-pochemu-v-java-utekaet-pamyat-nesmotrya-na-sborshchik-musora-2021-11-26)
-- [Про трейсинг](https://pro-prof.com/archives/6904)
+- Простая статья с красивыми картинками(https://struchkov.dev/blog/ru/memory-in-java/)
+- Типы ссылок и GC(https://habr.com/ru/articles/549176/)
+- Про утечку памяти(https://proglib.io/p/razbiraemsya-pochemu-v-java-utekaet-pamyat-nesmotrya-na-sborshchik-musora-2021-11-26)
+- Про трейсинг(https://pro-prof.com/archives/6904)
 - Глубокое погружение в JMM https://habr.com/ru/post/685518/
 - Про GC Shanandow https://habr.com/ru/companies/spring_aio/articles/950642/
 - 
@@ -43,7 +44,7 @@
 
 - Онлайн- учебник: https://metanit.com/java/tutorial/
 - Интерактивный учебник по регуляркам: https://regexone.com/
-- Информация по стримам - https://struchkov.dev/blog/ru/java-stream-api/
+- Статья про стримы - https://struchkov.dev/blog/ru/java-stream-api/
 - Использование для денег типа float и double (0.1 + 0.2 == 0.3)
 
 # Собесы
@@ -88,9 +89,9 @@ spring.jpa.properties.hibernate.format_sql=true
 logging.level.org.hibernate.orm.jdbc.bind=trace
 
 ## OpenApi
-
 Ссылка на туториал по разработке через openApi
 https://www.baeldung.com/spring-boot-openapi-api-first-development
+
 # Тестирование
 Статьи про testcontainers 
 - https://mkyong.com/spring-boot/spring-boot-testcontainers-example/#project-structure 
@@ -119,7 +120,6 @@ https://www.baeldung.com/spring-boot-openapi-api-first-development
 - Простой и понятный видос по TeamCIty - https://www.youtube.com/watch?v=zqi4fDF-S60&t=33s
 - Видос про графану (graphana) - https://youtu.be/quxPM1kt_38?si=r6GaRTK-dJKPr8O9
 - Roadmap по devOps - https://youtu.be/QPFJGZ0nDCY?si=Aj_E3pfDw8lb5EJ2
-- 
 
 **В контейнере для докера**
 psql -h localhost -U postgres
@@ -192,7 +192,7 @@ docker run --rm -it -v /srv/gitlab-runner/config:/etc/gitlab-runner getlab/gitla
 - Статья про spring security - https://habr.com/ru/companies/spring_aio/articles/909596/
 
 # Фундаментальное
-- [12 факторов](https://12factor.net/)
+- 12 факторов(https://12factor.net/)
 
 # Sql
 
@@ -234,9 +234,11 @@ COMMENT ON SCHEMA public IS 'standard public schema';
 ИИ хабы доступные без VPN в РФ
 1. https://gptunnel.ru - сайт на русском языке, объединяющий все популярные ИИ модели, где можно выбрать любую как платную, так и бесплатную ИИ модель.
 2. https://openrouter.ai - сайт на английском языке, объединяющий все популярные ИИ модели, где можно выбрать любую как платную, так и бесплатную ИИ модель.
+
 ## AI агент
 1. статья про агент на котлине - https://habr.com/ru/articles/930524/
 2. https://www.youtube.com/watch?v=KFgwXXWT7sQ&list=WL&index=9
+
 ## Промты
 
 - «**Не пиши сразу, а сначала задай вопросы, которые помогут тебе решить задачу**»**.** Большая проблема современных ИИ — они настолько настроены на ответ, что дают его даже не имея нужного контекста. Да и мы, пользователи, не всегда сразу можем понять, какую именно информацию предоставить ИИ для наиболее эффективного ответа. Поэтому излагаем задачу в 2-3 предложениях, добавляем в конец просьбу задать вопросы — и получаем очень подробный список, отвечая на который можно все разложить по полочкам.
@@ -252,8 +254,8 @@ COMMENT ON SCHEMA public IS 'standard public schema';
 
 # System design
 
-1. [[Подборка материалов по архитектуре.pdf]]
-2. 
+1. 
+
 # Прочее
 - Декодер для кодировки текста - https://involta.ru/tools/decoder/
 - Теоретическая инфа от чела из чата - https://alexakama.github.io/whitebook/
