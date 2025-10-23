@@ -134,6 +134,9 @@ logging.level.org.hibernate.orm.jdbc.bind=trace
 Ссылка на туториал по разработке через openApi
 https://www.baeldung.com/spring-boot-openapi-api-first-development
 
+Использование typeSpec
+https://typespec.io/
+
 # Тестирование
 Статьи про testcontainers 
 - https://mkyong.com/spring-boot/spring-boot-testcontainers-example/#project-structure 
@@ -157,7 +160,7 @@ https://www.baeldung.com/spring-boot-openapi-api-first-development
 ## Temporal
 - Гайд spring boot + temporal
 	https://dev.to/rock_win_c053fa5fb2399067/spring-boot-microservice-orchestration-with-temporal-hnp
-
+- Пример docker compose для развертывания temporal - https://github.com/temporalio/docker-compose
 
 # DevOps
 - Sber cloud виртуальная машина https://cloud.ru/
@@ -305,6 +308,9 @@ COMMENT ON SCHEMA public IS 'standard public schema';
 
 - Гексагональная архитектура - https://rutube.ru/video/0c0c7190b5fad271f6681eb17bc15ede/
 - Видео про проектирование REST Api - https://rutube.ru/video/e1db43775a3582176cbe9ee5e3ab0747/
+- Рекомендации от гугл по проектированию апи - https://google.aip.dev/136
+- Хорошая статья про написание пользовательских историй User Story - https://hightime.media/user-story-mapping/
+- Статья про sla и slo - https://habr.com/ru/companies/ruvds/articles/957394/
 
 # Прочее
 - Декодер для кодировки текста - https://involta.ru/tools/decoder/
